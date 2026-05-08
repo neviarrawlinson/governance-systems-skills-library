@@ -6,6 +6,12 @@ This project is designed for GRC practitioners, IT governance analysts, complian
 
 Unlike generic framework reference libraries, this repository focuses on operational governance workflows: reviewing change requests, preparing CAB summaries, analyzing RCAs, building risk register entries, responding to audit evidence requests, and creating executive-ready GRC summaries.
 
+## Live Demo
+
+View the project landing page:
+
+https://neviarrawlinson.github.io/governance-systems-skills-library/
+
 ## Why This Exists
 
 Many governance programs fail because controls live in documents but not in daily workflows.
@@ -38,14 +44,12 @@ governance-systems-skills-library/
 │   └── executive-grc-summary/
 ├── templates/
 ├── examples/
+├── framework-mapping/
+├── dist/
 └── site/
 ```
 
-Each skill folder contains a `SKILL.md` file with Claude-compatible skill instructions. Some skills also include references and examples that can be expanded over time.
-
-## Intended Use
-
-These skills are designed to help practitioners produce clearer, more consistent governance outputs. They support professional judgment, but they do not replace legal advice, audit advice, regulatory interpretation, or organization-specific policy decisions.
+Each skill folder contains a `SKILL.md` file with Claude-compatible skill instructions, a human-readable `README.md`, references, and examples.
 
 ## How to Use
 
@@ -74,21 +78,54 @@ Then ask Claude:
 Review this change request for governance completeness and CAB readiness.
 ```
 
+## Practical Workflow Examples
+
+This project includes examples for:
+
+- Jira change governance review.
+- CAB packet preparation.
+- Confluence RCA documentation.
+- Audit evidence response planning.
+- Risk register entry creation.
+- Executive GRC update summarization.
+
+## Framework Mapping
+
+The `framework-mapping/` folder connects the skill packs to common governance and assurance themes across:
+
+- ISO 27001
+- SOC 2
+- NIST CSF
+- COBIT
+
+These mappings are practical references and do not reproduce proprietary framework text.
+
+## Packaging Skills
+
+Run the packaging script from the repo root:
+
+```bash
+bash package-skills.sh
+```
+
+This creates downloadable zip files under:
+
+```text
+dist/
+```
+
+## Intended Use
+
+These skills are designed to help practitioners produce clearer, more consistent governance outputs. They support professional judgment, but they do not replace legal advice, audit advice, regulatory interpretation, or organization-specific policy decisions.
+
 ## Roadmap
 
-- Add Jira and Confluence workflow examples
-- Add sample CAB packets
-- Add RCA scoring rubric
-- Add ISO 27001, SOC 2, NIST CSF, and COBIT mapping references
-- Add GitHub Pages documentation site
-- Add downloadable skill zip packages
-- Add governance automation examples
-
-## Live Demo
-
-View the project landing page here:
-
-https://neviarrawlinson.github.io/governance-systems-skills-library/
+- Add more Jira and Confluence workflow examples.
+- Add downloadable release assets through GitHub Releases.
+- Add screenshots and project preview images.
+- Add additional framework mappings.
+- Add governance automation examples.
+- Add tests for skill folder validation.
 
 ## License
 

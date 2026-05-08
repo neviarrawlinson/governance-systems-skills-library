@@ -1,34 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Governance Systems Skills Library</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f7faf9; color: #10231f; line-height: 1.6; }
-    header { background: #0f3d3e; color: white; padding: 56px 24px; text-align: center; }
-    header h1 { margin: 0 0 12px; font-size: 42px; }
-    header p { max-width: 800px; margin: 0 auto; font-size: 18px; }
-    main { max-width: 1040px; margin: 0 auto; padding: 36px 24px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin-top: 24px; }
-    .card { background: white; border: 1px solid #d8e3df; border-radius: 16px; padding: 22px; box-shadow: 0 6px 20px rgba(0,0,0,0.05); }
-    .card h3 { margin-top: 0; color: #0f3d3e; }
-    .tag { display: inline-block; background: #dff4ef; color: #0f3d3e; padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: bold; }
-    footer { text-align: center; padding: 24px; color: #4b5f59; }
-    a { color: #0f6b68; }
+    :root {
+      --green: #0f4a47;
+      --green-dark: #0a3331;
+      --mint: #d7f2eb;
+      --text: #062326;
+      --muted: #4f6668;
+      --border: #d6e3df;
+      --bg: #f6faf9;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    header { background: var(--green); color: white; padding: 72px 20px; text-align: center; }
+    header .badge { display: inline-block; background: var(--mint); color: var(--green-dark); padding: 8px 18px; border-radius: 999px; font-weight: 700; margin-bottom: 18px; }
+    h1 { font-size: clamp(2.4rem, 6vw, 4.3rem); line-height: 1.1; margin: 0 0 22px; }
+    header p { font-size: 1.25rem; max-width: 960px; margin: 0 auto 28px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+    .button { display: inline-block; padding: 12px 18px; border-radius: 10px; text-decoration: none; font-weight: 700; }
+    .button.primary { background: white; color: var(--green-dark); }
+    .button.secondary { border: 1px solid rgba(255,255,255,.65); color: white; }
+    main { max-width: 1180px; margin: 0 auto; padding: 56px 20px; }
+    section { margin-bottom: 56px; }
+    h2 { font-size: 2rem; margin: 0 0 18px; }
+    .lead { font-size: 1.12rem; color: var(--muted); max-width: 980px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+    .card { background: var(--white); border: 1px solid var(--border); border-radius: 16px; padding: 24px; box-shadow: 0 14px 28px rgba(10, 51, 49, 0.06); }
+    .card h3 { margin-top: 0; color: var(--green-dark); font-size: 1.35rem; }
+    .card p { margin-bottom: 0; }
+    .path { background: var(--white); border: 1px solid var(--border); border-radius: 16px; padding: 24px; }
+    .path ol { margin-bottom: 0; }
+    code { background: #eaf3f0; padding: 2px 6px; border-radius: 6px; }
+    footer { background: var(--green-dark); color: white; text-align: center; padding: 32px 20px; }
+    footer a { color: var(--mint); }
   </style>
 </head>
 <body>
   <header>
-    <span class="tag">Governance Systems Engineering</span>
+    <div class="badge">Governance Systems Engineering</div>
     <h1>Governance Systems Skills Library</h1>
     <p>Practical AI skill packs for audit-ready governance, risk, compliance, change management, RCA, evidence workflows, and executive reporting.</p>
+    <div class="actions">
+      <a class="button primary" href="https://github.com/neviarrawlinson/governance-systems-skills-library">View GitHub Repo</a>
+      <a class="button secondary" href="https://github.com/neviarrawlinson/governance-systems-skills-library/tree/main/skills">Browse Skills</a>
+    </div>
   </header>
+
   <main>
     <section>
       <h2>What This Project Does</h2>
-      <p>This library turns GRC workflows into repeatable AI-assisted skills. It is designed for practitioners who need to review change requests, prepare CAB summaries, analyze RCAs, respond to audit evidence requests, structure risks, and brief leadership.</p>
+      <p class="lead">This library turns GRC workflows into repeatable AI-assisted skills. It is designed for practitioners who need to review change requests, prepare CAB summaries, analyze RCAs, respond to audit evidence requests, structure risks, and brief leadership.</p>
     </section>
+
     <section>
       <h2>Initial Skill Packs</h2>
       <div class="grid">
@@ -40,9 +68,29 @@
         <div class="card"><h3>Executive GRC Summary</h3><p>Creates concise leadership-ready summaries for governance, audit, compliance, risk, and change updates.</p></div>
       </div>
     </section>
+
+    <section>
+      <h2>Practitioner Workflow</h2>
+      <div class="path">
+        <ol>
+          <li>Use <code>change-governance-review</code> to evaluate a change request.</li>
+          <li>Use <code>cab-readiness-check</code> to decide whether the change is ready for CAB.</li>
+          <li>Use <code>risk-register-builder</code> when repeatable gaps become risks.</li>
+          <li>Use <code>rca-governance-analysis</code> when an incident or failed change requires review.</li>
+          <li>Use <code>audit-evidence-request</code> when evidence must be collected.</li>
+          <li>Use <code>executive-grc-summary</code> to report outcomes to leadership.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <h2>Framework Mapping</h2>
+      <p class="lead">The library includes practical mapping references for ISO 27001, SOC 2, NIST CSF, and COBIT. These mappings show how workflow-based skills can support control execution, evidence quality, risk tracking, and management reporting.</p>
+    </section>
   </main>
+
   <footer>
-    Built for practical GRC operators, governance analysts, risk teams, and audit-ready technology organizations.
+    <p>Built for practical Governance Systems Engineering. View the project on <a href="https://github.com/neviarrawlinson/governance-systems-skills-library">GitHub</a>.</p>
   </footer>
 </body>
 </html>

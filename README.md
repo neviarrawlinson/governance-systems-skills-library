@@ -84,6 +84,12 @@ Review this change request for governance completeness and CAB readiness.
 - Add downloadable skill zip packages
 - Add governance automation examples
 
+## Live Demo
+
+View the project landing page here:
+
+https://neviarrawlinson.github.io/governance-systems-skills-library/
+
 ## License
 
 This project is released under the MIT License. See `LICENSE` for details.

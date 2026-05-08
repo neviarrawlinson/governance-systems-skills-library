@@ -29,6 +29,14 @@ This is not a generic framework reference library. This project is workflow-cent
 - Reviewing AI use cases before approval.
 - Producing executive-ready GRC summaries.
 
+## Download Skill Packages
+
+The latest packaged Claude-compatible skill bundle is available from the official GitHub release:
+
+[Download governance-systems-skill-packages.zip](https://github.com/neviarrawlinson/governance-systems-skills-library/releases/tag/v0.4.0)
+
+Current release: **v0.4.0 - Advanced Governance Skills Expansion**
+
 ## Skill packs
 
 | Skill | Category | Purpose |

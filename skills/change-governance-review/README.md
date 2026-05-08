@@ -36,3 +36,11 @@ This skill should produce:
 ## Notes
 
 This skill supports professional judgment. It should be tailored to the organization's policies, control framework, risk methodology, approval workflow, and audit requirements.
+
+## Tested Example
+
+A tested output example is available here:
+
+[Production Restart Change Review Tested Output](examples/tested-output.md)
+
+This example shows how the skill evaluates a weak production change request and identifies missing implementation details, validation criteria, rollback planning, monitoring, approvals, and risk documentation.

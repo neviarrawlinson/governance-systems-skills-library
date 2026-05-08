@@ -11,6 +11,16 @@ Use this skill to evaluate whether a technology change request is ready for gove
 
 This skill focuses on practical change governance. It identifies whether a change has enough information to proceed safely, whether key controls are missing, and what should be corrected before approval.
 
+## Output Discipline
+
+Do not include CSS, HTML, widget code, visualization markup, transition code, or interface artifacts in the response.
+
+Do not generate charts or visual widgets unless the user explicitly asks for one.
+
+Always return the review in plain text or Markdown using the required output format.
+
+If the change request is incomplete, do not fill in missing details. Clearly identify the missing information and explain what must be corrected before approval.
+
 ## Review Categories
 
 Evaluate the change request across these categories:

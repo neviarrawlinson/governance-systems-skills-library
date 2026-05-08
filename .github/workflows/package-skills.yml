@@ -1,0 +1,35 @@
+name: Package Skills
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "skills/**"
+      - "package-skills.sh"
+      - "skill-catalog.json"
+      - ".github/workflows/package-skills.yml"
+  workflow_dispatch:
+
+jobs:
+  package-skills:
+    name: Package Skill Zip Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Ensure zip is available
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y zip
+
+      - name: Package skills
+        run: bash package-skills.sh
+
+      - name: Upload packaged skills
+        uses: actions/upload-artifact@v4
+        with:
+          name: governance-systems-skill-packages
+          path: dist/*.zip

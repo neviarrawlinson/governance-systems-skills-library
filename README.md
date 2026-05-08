@@ -94,6 +94,16 @@ These skills are designed to help practitioners produce clearer and more consist
 
 Current project phase: Advanced skill expansion and quality controls.
 
+## Tested Skill Output
+
+The `change-governance-review` skill has been tested using a sample production restart change request.
+
+View the tested example here:
+
+[Production Restart Change Review Tested Output](skills/change-governance-review/examples/tested-output.md)
+
+This example demonstrates how the skill identifies governance gaps in implementation planning, validation, rollback, monitoring, approvals, and risk documentation.
+
 ## License
 
 MIT License.

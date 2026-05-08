@@ -1,0 +1,73 @@
+{
+  "project": "Governance Systems Skills Library",
+  "version": "0.4.0",
+  "positioning": "Claude-compatible skill packs for Governance Systems Engineering workflows.",
+  "skills": [
+    {
+      "name": "change-governance-review",
+      "category": "Change Governance",
+      "maturity": "Core",
+      "description": "Reviews change requests for governance completeness, CAB readiness, risk, rollback, validation, monitoring, approvals, and audit readiness."
+    },
+    {
+      "name": "cab-readiness-check",
+      "category": "Change Governance",
+      "maturity": "Core",
+      "description": "Determines whether a change request is ready for CAB review and decision-making."
+    },
+    {
+      "name": "rca-governance-analysis",
+      "category": "Incident Governance",
+      "maturity": "Core",
+      "description": "Reviews RCA documentation for root cause quality, process gaps, monitoring gaps, ownership, corrective actions, and executive readiness."
+    },
+    {
+      "name": "audit-evidence-request",
+      "category": "Audit Readiness",
+      "maturity": "Core",
+      "description": "Converts audit evidence requests into evidence checklists, owner questions, response plans, and submission guidance."
+    },
+    {
+      "name": "risk-register-builder",
+      "category": "Risk Management",
+      "maturity": "Core",
+      "description": "Converts findings, issues, incidents, and observations into structured risk register entries."
+    },
+    {
+      "name": "executive-grc-summary",
+      "category": "Executive Reporting",
+      "maturity": "Core",
+      "description": "Creates concise executive-ready summaries for governance, risk, compliance, audit, change, RCA, and control updates."
+    },
+    {
+      "name": "policy-exception-review",
+      "category": "Policy Governance",
+      "maturity": "Advanced",
+      "description": "Reviews policy exception requests for business justification, risk impact, compensating controls, approval requirements, expiration date, ownership, and audit-ready documentation. Use when evaluating exceptions to security, IT, compliance, access, change management, vendor, or data governance policies."
+    },
+    {
+      "name": "third-party-risk-review",
+      "category": "Vendor Risk",
+      "maturity": "Advanced",
+      "description": "Reviews vendors, SaaS tools, service providers, integrations, and third-party relationships for security, privacy, compliance, operational, data, and business risk. Use when assessing new vendors, renewals, questionnaires, SOC reports, DPAs, contracts, or application intake requests."
+    },
+    {
+      "name": "control-evidence-quality-check",
+      "category": "Audit Readiness",
+      "maturity": "Advanced",
+      "description": "Evaluates audit evidence for completeness, accuracy, traceability, date coverage, reviewer signoff, control relevance, and submission readiness. Use when reviewing SOC 2, ISO 27001, ITGC, access review, change management, incident, vendor, or policy evidence before submitting to auditors."
+    },
+    {
+      "name": "governance-metrics-summary",
+      "category": "Governance Reporting",
+      "maturity": "Advanced",
+      "description": "Turns operational governance data into leadership-ready metrics, trends, risks, exceptions, and action-oriented summaries. Use when summarizing CAB metrics, change volume, emergency changes, delayed closures, RCA actions, audit requests, evidence status, policy exceptions, or GRC program health."
+    },
+    {
+      "name": "ai-governance-intake-review",
+      "category": "AI Governance",
+      "maturity": "Advanced",
+      "description": "Reviews proposed AI tools, models, automations, copilots, data uses, and AI-assisted workflows for governance, risk, privacy, security, compliance, ownership, transparency, and approval readiness. Use when evaluating AI tool intake, AI vendor requests, internal AI workflow proposals, or AI risk reviews."
+    }
+  ]
+}

@@ -1,132 +1,91 @@
 # Governance Systems Skills Library
 
-Practical AI skill packs for governance, risk, compliance, audit readiness, change management, RCA, and executive reporting.
-
-This project is designed for GRC practitioners, IT governance analysts, compliance teams, auditors, risk owners, and technology leaders who need repeatable, audit-ready workflows.
-
-Unlike generic framework reference libraries, this repository focuses on operational governance workflows: reviewing change requests, preparing CAB summaries, analyzing RCAs, building risk register entries, responding to audit evidence requests, and creating executive-ready GRC summaries.
+Practical Claude-compatible skill packs for Governance Systems Engineering, change governance, RCA analysis, audit evidence, risk documentation, vendor risk, AI governance intake, and executive GRC reporting.
 
 ## Live Demo
 
-View the project landing page:
+View the project landing page here:
 
 https://neviarrawlinson.github.io/governance-systems-skills-library/
 
-## Why This Exists
+## Why this project exists
 
-Many governance programs fail because controls live in documents but not in daily workflows.
+Many governance programs fail because controls live in documents but do not show up consistently in tickets, approvals, evidence, reporting, or operational decisions.
 
-Governance Systems Engineering focuses on turning governance expectations into repeatable systems, checklists, decision logic, templates, and AI-assisted workflows that support real operational decisions.
+Governance Systems Engineering turns governance expectations into repeatable systems, decision logic, checklists, workflows, skill packs, and audit-ready outputs.
 
-## Initial Skill Packs
+## What makes this different
 
-| Skill | Purpose |
-|---|---|
-| `change-governance-review` | Reviews change requests for governance completeness, risk, rollback, validation, monitoring, approvals, and audit readiness. |
-| `cab-readiness-check` | Determines whether a change is ready for CAB review and identifies blockers before approval. |
-| `rca-governance-analysis` | Reviews incident and RCA details for root cause quality, monitoring gaps, ownership gaps, and corrective actions. |
-| `audit-evidence-request` | Converts vague audit requests into clear evidence checklists and response plans. |
-| `risk-register-builder` | Converts risks, issues, incidents, or audit findings into structured risk register entries. |
-| `executive-grc-summary` | Creates concise leadership-ready summaries for governance, risk, audit, compliance, and change updates. |
+This is not a generic framework reference library. This project is workflow-centered and focuses on the work practitioners actually perform:
 
-## Repository Structure
+- Reviewing technology change requests.
+- Preparing CAB decisions.
+- Evaluating RCA quality.
+- Checking audit evidence before submission.
+- Creating risk register entries.
+- Reviewing policy exceptions.
+- Assessing third-party risk.
+- Summarizing governance metrics.
+- Reviewing AI use cases before approval.
+- Producing executive-ready GRC summaries.
 
-```text
-governance-systems-skills-library/
-├── README.md
-├── docs/
-├── skills/
-│   ├── change-governance-review/
-│   ├── cab-readiness-check/
-│   ├── rca-governance-analysis/
-│   ├── audit-evidence-request/
-│   ├── risk-register-builder/
-│   └── executive-grc-summary/
-├── templates/
-├── examples/
-├── framework-mapping/
-├── dist/
-└── site/
-```
+## Skill packs
 
-Each skill folder contains a `SKILL.md` file with Claude-compatible skill instructions, a human-readable `README.md`, references, and examples.
+| Skill | Category | Purpose |
+|---|---|---|
+| `change-governance-review` | Change Governance | Reviews change requests for governance completeness, CAB readiness, risk, rollback, validation, monitoring, approvals, and audit readiness. |
+| `cab-readiness-check` | Change Governance | Determines whether a change request is ready for CAB review and decision-making. |
+| `rca-governance-analysis` | Incident Governance | Reviews RCA documentation for root cause quality, process gaps, monitoring gaps, ownership, corrective actions, and executive readiness. |
+| `audit-evidence-request` | Audit Readiness | Converts audit evidence requests into evidence checklists, owner questions, response plans, and submission guidance. |
+| `risk-register-builder` | Risk Management | Converts findings, issues, incidents, and observations into structured risk register entries. |
+| `executive-grc-summary` | Executive Reporting | Creates concise executive-ready summaries for governance, risk, compliance, audit, change, RCA, and control updates. |
+| `policy-exception-review` | Policy Governance | Reviews policy exception requests for business justification, risk impact, compensating controls, approval requirements, expiration date, ownership, and audit-ready documentation. Use when evaluating exceptions to security, IT, compliance, access, change management, vendor, or data governance policies. |
+| `third-party-risk-review` | Vendor Risk | Reviews vendors, SaaS tools, service providers, integrations, and third-party relationships for security, privacy, compliance, operational, data, and business risk. Use when assessing new vendors, renewals, questionnaires, SOC reports, DPAs, contracts, or application intake requests. |
+| `control-evidence-quality-check` | Audit Readiness | Evaluates audit evidence for completeness, accuracy, traceability, date coverage, reviewer signoff, control relevance, and submission readiness. Use when reviewing SOC 2, ISO 27001, ITGC, access review, change management, incident, vendor, or policy evidence before submitting to auditors. |
+| `governance-metrics-summary` | Governance Reporting | Turns operational governance data into leadership-ready metrics, trends, risks, exceptions, and action-oriented summaries. Use when summarizing CAB metrics, change volume, emergency changes, delayed closures, RCA actions, audit requests, evidence status, policy exceptions, or GRC program health. |
+| `ai-governance-intake-review` | AI Governance | Reviews proposed AI tools, models, automations, copilots, data uses, and AI-assisted workflows for governance, risk, privacy, security, compliance, ownership, transparency, and approval readiness. Use when evaluating AI tool intake, AI vendor requests, internal AI workflow proposals, or AI risk reviews. |
 
-## How to Use
-
-1. Open a skill folder under `skills/`.
-2. Review the `SKILL.md` instructions.
-3. Upload or install the skill using the Claude Skills workflow available in your Claude environment.
-4. Test the skill with realistic governance inputs, such as a change request, RCA draft, audit request, risk statement, or executive update.
-5. Refine the skill based on your organization, control framework, risk methodology, and governance process.
-
-## Suggested First Test
-
-Use the `change-governance-review` skill with a sample change request that includes:
-
-- Summary
-- Environment
-- Implementation plan
-- Validation plan
-- Rollback plan
-- Risk and impact
-- Monitoring plan
-- Approvals
-
-Then ask Claude:
+## Repository structure
 
 ```text
-Review this change request for governance completeness and CAB readiness.
+docs/                    Project documentation and guides
+skills/                  Claude-compatible skill folders
+templates/               Reusable governance templates
+examples/                Sample inputs, outputs, release notes, and workflow examples
+framework-mapping/       Governance workflow mappings to common frameworks
+governance-quality/      Skill quality controls and release checklists
+scripts/                 Validation scripts
+.github/workflows/       GitHub Actions workflows
+site/                    GitHub Pages source copy
+dist/                    Packaged skill zip files
 ```
 
-## Practical Workflow Examples
+## Validate skills
 
-This project includes examples for:
+Run:
 
-- Jira change governance review.
-- CAB packet preparation.
-- Confluence RCA documentation.
-- Audit evidence response planning.
-- Risk register entry creation.
-- Executive GRC update summarization.
+```bash
+python scripts/validate-skills.py
+```
 
-## Framework Mapping
+## Package skills
 
-The `framework-mapping/` folder connects the skill packs to common governance and assurance themes across:
-
-- ISO 27001
-- SOC 2
-- NIST CSF
-- COBIT
-
-These mappings are practical references and do not reproduce proprietary framework text.
-
-## Packaging Skills
-
-Run the packaging script from the repo root:
+Run:
 
 ```bash
 bash package-skills.sh
 ```
 
-This creates downloadable zip files under:
+Packages are generated in the `dist/` folder.
 
-```text
-dist/
-```
+## Intended use
 
-## Intended Use
+These skills are designed to help practitioners produce clearer and more consistent governance outputs. They do not replace professional judgment, legal advice, audit advice, regulatory interpretation, or management approval.
 
-These skills are designed to help practitioners produce clearer, more consistent governance outputs. They support professional judgment, but they do not replace legal advice, audit advice, regulatory interpretation, or organization-specific policy decisions.
+## Status
 
-## Roadmap
-
-- Add more Jira and Confluence workflow examples.
-- Add downloadable release assets through GitHub Releases.
-- Add screenshots and project preview images.
-- Add additional framework mappings.
-- Add governance automation examples.
-- Add tests for skill folder validation.
+Current project phase: Advanced skill expansion and quality controls.
 
 ## License
 
-This project is released under the MIT License. See `LICENSE` for details.
+MIT License.

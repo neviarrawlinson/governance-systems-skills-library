@@ -1,14 +1,20 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-mkdir -p dist
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SKILLS_DIR="$ROOT_DIR/skills"
+DIST_DIR="$ROOT_DIR/dist"
 
-for skill_dir in skills/*; do
-  if [ -d "$skill_dir" ] && [ -f "$skill_dir/SKILL.md" ]; then
-    skill_name=$(basename "$skill_dir")
-    zip_path="dist/${skill_name}.zip"
-    rm -f "$zip_path"
-    zip -r "$zip_path" "$skill_dir" -x "*.DS_Store" >/dev/null
-    echo "Packaged $zip_path"
+mkdir -p "$DIST_DIR"
+
+for skill_path in "$SKILLS_DIR"/*; do
+  if [[ -d "$skill_path" && -f "$skill_path/SKILL.md" ]]; then
+    skill_name="$(basename "$skill_path")"
+    zip_file="$DIST_DIR/$skill_name.zip"
+    rm -f "$zip_file"
+    (cd "$SKILLS_DIR" && zip -qr "$zip_file" "$skill_name")
+    echo "Packaged $skill_name -> dist/$skill_name.zip"
   fi
 done
+
+echo "Skill packaging complete."

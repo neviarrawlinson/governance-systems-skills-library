@@ -21,3 +21,11 @@ Governance exception decision, risk summary, required conditions, approval path,
 - `examples/sample-input.md`: Example request or dataset.
 - `examples/sample-output.md`: Example skill output.
 - `references/checklist.md`: Supporting review checklist.
+
+- ## Tested Example
+
+A tested output example is available here:
+
+[Temporary Production Change Security Review Exception Tested Output](examples/tested-output.md)
+
+This example shows how the skill reviews a policy exception request and identifies gaps in risk rating, compensating controls, approval readiness, exception duration, ownership, audit evidence, and risk acceptance.

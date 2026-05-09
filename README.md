@@ -35,9 +35,19 @@ This is not a generic framework reference library. This project is workflow-cent
 
 The latest packaged Claude-compatible skill bundle is available from the official GitHub release:
 
-[Download governance-systems-skill-packages.zip](https://github.com/neviarrawlinson/governance-systems-skills-library/releases/tag/v0.4.0)
+[Download governance-systems-skill-packages.zip](https://github.com/neviarrawlinson/governance-systems-skills-library/releases/tag/v0.5.0)
 
-Current release: **v0.4.0 - Advanced Governance Skills Expansion**
+Current release: **v0.5.0 - Complete Tested Outputs Release**
+
+## Project Highlights
+
+- **11 Claude-compatible GRC skills** organized as reusable skill folders
+- **11 tested output examples** using realistic governance scenarios
+- **Automated validation** through GitHub Actions
+- **Automated packaging** for downloadable skill bundles
+- **Live GitHub Pages site** for project presentation
+- **Framework mapping** for common governance and compliance references
+- **Governance quality controls** for release readiness and review
 
 ## Skill Packs
 
@@ -73,6 +83,31 @@ The library includes tested output examples using realistic governance scenarios
 
 These examples demonstrate how the skills identify governance gaps in implementation planning, validation, rollback, monitoring, approvals, risk documentation, CAB readiness, root cause quality, corrective action ownership, change governance linkage, evidence quality, traceability, audit submission readiness, risk register documentation, executive reporting, policy exception review, compensating controls, risk acceptance, vendor due diligence, data protection, third-party risk review, control evidence quality, governance metrics, trend analysis, leadership reporting, AI governance, prompt retention, model training risk, transparency, and approval readiness.
 
+## Methodology
+
+The library follows a Governance Systems Engineering model:
+
+```text
+Governance Requirement
+        ↓
+Workflow Decision Point
+        ↓
+Evidence Requirement
+        ↓
+Risk / Exception Handling
+        ↓
+Leadership-Ready Output
+        ↓
+Audit-Ready Record
+```
+
+Read more:
+
+- [Governance Systems Engineering Methodology](docs/governance-systems-engineering-methodology.md)
+- [Project Architecture](docs/architecture.md)
+- [Skill Output Index](docs/skill-output-index.md)
+- [Portfolio Positioning Notes](docs/portfolio-positioning-notes.md)
+
 ## Repository Structure
 
 ```text
@@ -86,6 +121,7 @@ scripts/                 Validation scripts
 .github/workflows/       GitHub Actions workflows
 site/                    GitHub Pages source copy
 dist/                    Packaged skill zip files
+assets/screenshots/      Optional project screenshots for README and portfolio use
 ```
 
 ## How to Use This Library
@@ -137,7 +173,7 @@ They do not replace professional judgment, legal advice, audit advice, regulator
 
 ## Current Status
 
-Current project phase: **Advanced skill expansion and quality controls**
+Current project phase: **Complete tested outputs release**
 
 Completed:
 
@@ -150,21 +186,21 @@ Completed:
 - Governance quality controls
 - Automated validation workflow
 - Automated packaging workflow
-- Official GitHub release
-- Tested skill output examples
+- Official GitHub releases
+- Tested skill output examples for all 11 skills
 
 ## Roadmap
 
 Planned future improvements:
 
-- Add tested outputs for all remaining skills
 - Add screenshots to the README
 - Add more Jira and Confluence workflow examples
 - Add release governance examples
 - Expand framework mappings
 - Add additional AI governance and vendor risk scenarios
 - Improve live site navigation
-- Publish v1.0.0 release after all core skills include tested examples
+- Add downloadable individual skill buttons to the live site
+- Publish v1.0.0 after screenshots, site polish, and expanded workflow examples are complete
 
 ## License
 

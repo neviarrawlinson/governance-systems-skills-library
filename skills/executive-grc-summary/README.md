@@ -30,8 +30,13 @@ This skill should produce:
 
 ## Example Files
 
-- `examples/sample-input.md`
-- `examples/sample-output.md`
+## Tested Example
+
+A tested output example is available here:
+
+[Executive GRC Summary for Production Change Governance Finding Tested Output](examples/tested-output.md)
+
+This example shows how the skill turns a complex governance issue into a leadership-ready summary with business impact, current status, risk posture, governance concerns, leadership decisions, and next actions.
 
 ## Notes
 

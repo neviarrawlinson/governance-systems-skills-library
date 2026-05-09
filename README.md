@@ -78,3 +78,86 @@ scripts/                 Validation scripts
 .github/workflows/       GitHub Actions workflows
 site/                    GitHub Pages source copy
 dist/                    Packaged skill zip files
+```
+
+## How to Use This Library
+
+You can use this repository in three ways:
+
+1. **As a Claude Skills library**  
+   Download the packaged skill bundle from the latest release and use the relevant skill files in Claude.
+
+2. **As a GRC workflow reference library**  
+   Review the skill instructions, examples, and templates to understand how governance workflows can be structured.
+
+3. **As a Governance Systems Engineering portfolio project**  
+   Use the repository structure, tested outputs, validation workflow, and release packaging model to demonstrate applied GRC engineering capability.
+
+## Validate Skills
+
+Run:
+
+```bash
+python scripts/validate-skills.py
+```
+
+The validation script checks whether each skill folder includes the expected Claude-compatible structure.
+
+## Package Skills
+
+Run:
+
+```bash
+bash package-skills.sh
+```
+
+Packages are generated in the `dist/` folder.
+
+## GitHub Actions
+
+This repository includes GitHub Actions workflows for:
+
+- Validating skill structure
+- Packaging skill zip files
+- Supporting repeatable release readiness
+
+## Intended Use
+
+These skills are designed to help practitioners produce clearer and more consistent governance outputs.
+
+They do not replace professional judgment, legal advice, audit advice, regulatory interpretation, or management approval.
+
+## Current Status
+
+Current project phase: **Advanced skill expansion and quality controls**
+
+Completed:
+
+- Core skill library structure
+- GitHub Pages landing page
+- Initial GRC workflow skills
+- Advanced governance skills
+- Skill catalog
+- Framework mapping folder
+- Governance quality controls
+- Automated validation workflow
+- Automated packaging workflow
+- Official GitHub release
+- Tested skill output examples
+
+## Roadmap
+
+Planned future improvements:
+
+- Add tested outputs for all remaining skills
+- Add screenshots to the README
+- Add more Jira and Confluence workflow examples
+- Add release governance examples
+- Expand framework mappings
+- Add additional AI governance and vendor risk scenarios
+- Improve live site navigation
+- Publish v1.0.0 release after all core skills include tested examples
+
+## License
+
+MIT License.

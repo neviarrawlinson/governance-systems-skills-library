@@ -22,7 +22,7 @@ Governance exception decision, risk summary, required conditions, approval path,
 - `examples/sample-output.md`: Example skill output.
 - `references/checklist.md`: Supporting review checklist.
 
-- ## Tested Example
+## Tested Example
 
 A tested output example is available here:
 

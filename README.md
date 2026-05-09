@@ -65,8 +65,10 @@ The library includes tested output examples using realistic governance scenarios
 - [Change Management Audit Evidence Request Tested Output](skills/audit-evidence-request/examples/tested-output.md)
 - [Production Change Governance Risk Register Entry Tested Output](skills/risk-register-builder/examples/tested-output.md)
 - [Executive GRC Summary for Production Change Governance Finding Tested Output](skills/executive-grc-summary/examples/tested-output.md)
+- [Temporary Production Change Security Review Exception Tested Output](skills/policy-exception-review/examples/tested-output.md)
+- [InsightDash Analytics Third-Party Risk Review Tested Output](skills/third-party-risk-review/examples/tested-output.md)
 
-These examples demonstrate how the skills identify governance gaps in implementation planning, validation, rollback, monitoring, approvals, risk documentation, CAB readiness, root cause quality, corrective action ownership, change governance linkage, evidence quality, traceability, audit submission readiness, risk register documentation, and executive reporting.
+These examples demonstrate how the skills identify governance gaps in implementation planning, validation, rollback, monitoring, approvals, risk documentation, CAB readiness, root cause quality, corrective action ownership, change governance linkage, evidence quality, traceability, audit submission readiness, risk register documentation, executive reporting, policy exception review, compensating controls, risk acceptance, vendor due diligence, data protection, and third-party risk review.
 
 ## Repository Structure
 

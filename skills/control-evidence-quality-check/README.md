@@ -21,3 +21,11 @@ Evidence readiness rating, issues found, remediation checklist, and auditor-read
 - `examples/sample-input.md`: Example request or dataset.
 - `examples/sample-output.md`: Example skill output.
 - `references/checklist.md`: Supporting review checklist.
+
+## Tested Example
+
+A tested output example is available here:
+
+[Change Management Control Evidence Quality Check Tested Output](examples/tested-output.md)
+
+This example shows how the skill evaluates an audit evidence package for completeness, approval evidence, testing evidence, validation quality, rollback documentation, monitoring traceability, RCA linkage, risk register linkage, and audit submission readiness.

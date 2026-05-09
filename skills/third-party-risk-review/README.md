@@ -21,3 +21,12 @@ Vendor risk summary, missing evidence list, approval conditions, residual risk s
 - `examples/sample-input.md`: Example request or dataset.
 - `examples/sample-output.md`: Example skill output.
 - `references/checklist.md`: Supporting review checklist.
+
+## Tested Example
+
+A tested output example is available here:
+
+[InsightDash Analytics Third-Party Risk Review Tested Output](examples/tested-output.md)
+
+This example shows how the skill reviews a SaaS vendor intake request and identifies gaps in SOC 2 evidence, DPA review, security questionnaire completion, API integration risk, data export controls, production access, pilot guardrails, and vendor approval readiness.
+

@@ -104,6 +104,15 @@ View the tested example here:
 
 This example demonstrates how the skill identifies governance gaps in implementation planning, validation, rollback, monitoring, approvals, and risk documentation.
 
+## Tested Skill Output
+
+The library includes tested output examples using realistic governance scenarios.
+
+- [Production Restart Change Review Tested Output](skills/change-governance-review/examples/tested-output.md)
+- [Database Configuration CAB Readiness Tested Output](skills/cab-readiness-check/examples/tested-output.md)
+
+These examples demonstrate how the skills identify governance gaps in implementation planning, validation, rollback, monitoring, approvals, risk documentation, and CAB readiness.
+
 ## License
 
 MIT License.

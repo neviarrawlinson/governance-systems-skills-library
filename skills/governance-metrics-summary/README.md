@@ -21,3 +21,11 @@ Executive snapshot, metric table, trend observations, risk/exception callouts, a
 - `examples/sample-input.md`: Example request or dataset.
 - `examples/sample-output.md`: Example skill output.
 - `references/checklist.md`: Supporting review checklist.
+
+## Tested Example
+
+A tested output example is available here:
+
+[Governance Metrics Leadership Summary Tested Output](examples/tested-output.md)
+
+This example shows how the skill turns governance metrics into a leadership-ready summary with current status, key metrics, trends, control gaps, exceptions, risks, corrective action concerns, and recommended leadership actions.

@@ -30,8 +30,15 @@ This skill should produce:
 
 ## Example Files
 
-- `examples/sample-input.md`
-- `examples/sample-output.md`
+## Tested Example
+
+A tested output example is available here:
+
+[Change Management Audit Evidence Request Tested Output](examples/tested-output.md)
+
+This example shows how the skill evaluates a weak audit evidence package and identifies gaps in approval timing, validation evidence, rollback planning, monitoring evidence, traceability, and submission readiness.
+
+`
 
 ## Notes
 

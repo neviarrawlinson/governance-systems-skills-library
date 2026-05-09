@@ -63,8 +63,9 @@ The library includes tested output examples using realistic governance scenarios
 - [Database Configuration CAB Readiness Tested Output](skills/cab-readiness-check/examples/tested-output.md)
 - [Reporting Service Outage RCA Governance Analysis Tested Output](skills/rca-governance-analysis/examples/tested-output.md)
 - [Change Management Audit Evidence Request Tested Output](skills/audit-evidence-request/examples/tested-output.md)
+- [Production Change Governance Risk Register Entry Tested Output](skills/risk-register-builder/examples/tested-output.md)
 
-These examples demonstrate how the skills identify governance gaps in implementation planning, validation, rollback, monitoring, approvals, risk documentation, CAB readiness, root cause quality, corrective action ownership, change governance linkage, evidence quality, traceability, and audit submission readiness.
+These examples demonstrate how the skills identify governance gaps in implementation planning, validation, rollback, monitoring, approvals, risk documentation, CAB readiness, root cause quality, corrective action ownership, change governance linkage, evidence quality, traceability, audit submission readiness, and risk register documentation.
 
 ## Repository Structure
 

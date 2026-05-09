@@ -30,8 +30,13 @@ This skill should produce:
 
 ## Example Files
 
-- `examples/sample-input.md`
-- `examples/sample-output.md`
+## Tested Example
+
+A tested output example is available here:
+
+[Reporting Service Outage RCA Governance Analysis Tested Output](examples/tested-output.md)
+
+This example shows how the skill reviews an incomplete RCA and identifies gaps in root cause quality, incident timeline, monitoring failure analysis, corrective action ownership, change governance linkage, evidence quality, and audit readiness.
 
 ## Notes
 

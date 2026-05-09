@@ -30,8 +30,13 @@ This skill should produce:
 
 ## Example Files
 
-- `examples/sample-input.md`
-- `examples/sample-output.md`
+## Tested Example
+
+A tested output example is available here:
+
+[Production Change Governance Risk Register Entry Tested Output](examples/tested-output.md)
+
+This example shows how the skill converts a production change governance finding into a structured risk register entry with a risk statement, cause, impact, existing controls, control gaps, risk rating rationale, corrective actions, evidence requirements, residual risk, and audit traceability.
 
 ## Notes
 

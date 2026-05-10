@@ -259,6 +259,25 @@ Completed:
 - Official GitHub releases
 - Tested skill output examples for all 11 skills
 
+## Public Launch and Portfolio Resources
+
+This project includes resources to support public launch, portfolio integration, interviews, and professional positioning.
+
+Launch and portfolio resources:
+
+- [Public Launch Plan](docs/public-launch-plan.md)
+- [GitHub About Section](docs/github-about-section.md)
+- [GitHub Profile README Snippet](docs/github-profile-readme-snippet.md)
+- [Resume Project Bullets](docs/resume-project-bullets.md)
+- [LinkedIn v1 Project Announcement](docs/linkedin-v1-project-announcement.md)
+- [Hashnode Article Draft](docs/hashnode-article-draft.md)
+- [Portfolio Project Page](docs/portfolio-project-page.md)
+- [Interview Talking Points](docs/interview-talking-points.md)
+- [Demo Script](docs/demo-script.md)
+- [Project Launch Checklist](templates/project-launch-checklist.md)
+
+These resources are designed to help explain the project as a Governance Systems Engineering portfolio asset for GRC, audit readiness, risk management, AI governance, and operational governance roles.
+
 ## Roadmap
 
 Planned future improvements:

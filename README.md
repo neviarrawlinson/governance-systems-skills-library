@@ -73,9 +73,9 @@ This is not a generic framework reference library. This project is workflow-cent
 
 The latest packaged Claude-compatible skill bundle is available from the official GitHub release:
 
-[Download governance-systems-skill-packages.zip](https://github.com/neviarrawlinson/governance-systems-skills-library/releases/tag/v0.8.0)
+[Download governance-systems-skill-packages.zip](https://github.com/neviarrawlinson/governance-systems-skills-library/releases/tag/v1.0.0)
 
-Current release: **v0.8.0 - Usability and Installation Guide**
+Current release: **v1.0.0 - Stable Governance Systems Skills Library Release**
 
 ## Getting Started
 

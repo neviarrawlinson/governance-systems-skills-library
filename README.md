@@ -8,6 +8,44 @@ View the project landing page here:
 
 https://neviarrawlinson.github.io/governance-systems-skills-library/
 
+## Project Preview
+
+### Live Landing Page
+
+![Governance Systems Skills Library Landing Page](assets/screenshots/landing-page-hero.png)
+
+### Skill Library Overview
+
+![Skill Library Section](assets/screenshots/skill-library-section.png)
+
+### Tested Output Examples
+
+![Tested Output Section](assets/screenshots/tested-output-section.png)
+
+### Repository Structure
+
+![GitHub Repository Structure](assets/screenshots/github-repo-structure.png)
+
+### Skills Folder Structure
+
+![Skills Folder Structure](assets/screenshots/skills-folder-structure.png)
+
+### Tested Skill Output Example
+
+![Tested Output Example](assets/screenshots/tested-output-example.png)
+
+### Validation Workflow
+
+![Actions Validation Success](assets/screenshots/actions-validation-success.png)
+
+### Release Assets
+
+![Release Assets](assets/screenshots/release-assets.png)
+
+### Architecture and Methodology
+
+![Architecture and Methodology](assets/screenshots/architecture-methodology.png)
+
 ## Why This Project Exists
 
 Many governance programs fail because controls live in documents but do not show up consistently in tickets, approvals, evidence, reporting, or operational decisions.

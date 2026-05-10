@@ -92,6 +92,23 @@ For testing and documentation, use the included:
 
 - [Skill Test Log Template](templates/skill-test-log-template.md)
 
+## Framework Mapping
+
+This library includes framework mapping documentation to show how each skill supports common governance, risk, compliance, audit, and control objectives.
+
+Framework mapping resources:
+
+- [Skill-to-Framework Matrix](framework-mapping/skill-to-framework-matrix.md)
+- [ISO 27001 Skill Mapping](framework-mapping/iso-27001-skill-mapping.md)
+- [SOC 2 Skill Mapping](framework-mapping/soc-2-skill-mapping.md)
+- [NIST CSF Skill Mapping](framework-mapping/nist-csf-skill-mapping.md)
+- [COBIT Skill Mapping](framework-mapping/cobit-skill-mapping.md)
+- [AI Governance Skill Mapping](framework-mapping/ai-governance-skill-mapping.md)
+- [Framework Mapping Guide](docs/framework-mapping-guide.md)
+- [Framework Mapping Coverage Model](docs/framework-mapping-coverage-model.md)
+
+These mappings are intended to show practical alignment, not to replace formal audit, legal, or regulatory interpretation.
+
 ## Project Highlights
 
 - **11 Claude-compatible GRC skills** organized as reusable skill folders

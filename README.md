@@ -77,6 +77,21 @@ The latest packaged Claude-compatible skill bundle is available from the officia
 
 Current release: **v0.7.0 - Screenshots and Portfolio Proof**
 
+## Getting Started
+
+Use these guides to download, install, test, and apply the skills:
+
+- [Quickstart Guide](docs/quickstart.md)
+- [Installation and Usage Guide](docs/installation-and-usage-guide.md)
+- [User Guide](docs/user-guide.md)
+- [Skill Testing Prompt Library](docs/skill-testing-prompt-library.md)
+- [Troubleshooting Guide](docs/troubleshooting-guide.md)
+- [Skill Installation Checklist](docs/skill-installation-checklist.md)
+
+For testing and documentation, use the included:
+
+- [Skill Test Log Template](templates/skill-test-log-template.md)
+
 ## Project Highlights
 
 - **11 Claude-compatible GRC skills** organized as reusable skill folders

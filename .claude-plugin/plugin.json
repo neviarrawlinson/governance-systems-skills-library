@@ -1,0 +1,27 @@
+{
+  "name": "governance-systems-skills",
+  "version": "1.4.0",
+  "description": "Claude Code plugin for Governance Systems Engineering workflows, including change governance, CAB readiness, RCA analysis, audit evidence, risk registers, policy exceptions, third-party risk, AI governance intake, governance metrics, and executive reporting.",
+  "author": {
+    "name": "Neviar Rawlinson",
+    "url": "https://github.com/neviarrawlinson"
+  },
+  "homepage": "https://neviarrawlinson.github.io/governance-systems-skills-library/",
+  "repository": "https://github.com/neviarrawlinson/governance-systems-skills-library",
+  "license": "MIT",
+  "keywords": [
+    "grc",
+    "governance",
+    "risk",
+    "compliance",
+    "governance-systems-engineering",
+    "audit-readiness",
+    "change-management",
+    "cab",
+    "rca",
+    "third-party-risk",
+    "ai-governance",
+    "claude-skills",
+    "claude-code-plugin"
+  ]
+}

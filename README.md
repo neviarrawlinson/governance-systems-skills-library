@@ -113,6 +113,36 @@ Current plugin-supported skill areas include:
 - Governance metrics summary
 - AI governance intake review
 
+## Claude Code Plugin Components
+
+The plugin expansion adds Claude Code-ready commands and specialized agent instructions to make the Governance Systems Skills Library easier to use in developer and GRC workflow environments.
+
+Plugin components include:
+
+- [Commands](commands/)
+- [Agents](agents/)
+- [Claude Code Command Guide](docs/claude-code-command-guide.md)
+- [Claude Code Agent Guide](docs/claude-code-agent-guide.md)
+- [Plugin Component Map](docs/plugin-component-map.md)
+- [Plugin Testing Guide](docs/plugin-testing-guide.md)
+
+Included command workflows:
+
+- `review-change`
+- `prepare-cab-summary`
+- `assess-vendor`
+- `review-ai-intake`
+- `summarize-governance-metrics`
+
+Included agent profiles:
+
+- `governance-reviewer`
+- `audit-evidence-reviewer`
+- `ai-governance-reviewer`
+- `third-party-risk-reviewer`
+
+These components extend the project from a skill library into a more complete Claude Code plugin-ready governance toolkit.
+
 ## Getting Started
 
 Use these guides to download, install, test, and apply the skills:

@@ -278,6 +278,24 @@ Launch and portfolio resources:
 
 These resources are designed to help explain the project as a Governance Systems Engineering portfolio asset for GRC, audit readiness, risk management, AI governance, and operational governance roles.
 
+## Demo and Use Case Resources
+
+This project includes demo resources to show how the skills can be applied across practical governance scenarios.
+
+Demo and use case resources:
+
+- [Demo Walkthrough](docs/demo-walkthrough.md)
+- [Use Case Library](docs/use-case-library.md)
+- [Recruiter Demo Guide](docs/recruiter-demo-guide.md)
+- [Hiring Manager Summary](docs/hiring-manager-summary.md)
+- [End-to-End Change Governance Demo](examples/end-to-end-change-governance-demo.md)
+- [End-to-End Audit Evidence Demo](examples/end-to-end-audit-evidence-demo.md)
+- [End-to-End AI Governance Demo](examples/end-to-end-ai-governance-demo.md)
+- [End-to-End Third-Party Risk Demo](examples/end-to-end-third-party-risk-demo.md)
+- [Demo Evaluation Scorecard](templates/demo-evaluation-scorecard.md)
+
+These resources are designed to help demonstrate how the library supports real GRC workflows from intake through review, evidence, risk documentation, leadership reporting, and audit-ready output.
+
 ## Roadmap
 
 Planned future improvements:

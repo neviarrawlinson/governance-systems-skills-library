@@ -2,11 +2,19 @@
 
 Practical Claude-compatible skill packs for Governance Systems Engineering, change governance, RCA analysis, audit evidence, risk documentation, vendor risk, AI governance intake, and executive GRC reporting.
 
-## Live Demo
+## Interactive Demo Site
 
-View the project landing page here:
+The GitHub Pages site now includes an interactive project overview with searchable skill cards, category filters, direct links to skill folders, tested output examples, framework mapping resources, demo pathways, and the latest release download.
+
+View the live site here:
 
 https://neviarrawlinson.github.io/governance-systems-skills-library/
+
+Supporting site documentation:
+
+- [Interactive Site Guide](docs/interactive-site-guide.md)
+- [Site Content Map](docs/site-content-map.md)
+- [Site Upgrade Checklist](docs/site-upgrade-checklist.md)
 
 ## Project Preview
 

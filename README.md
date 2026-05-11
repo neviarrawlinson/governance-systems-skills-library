@@ -85,6 +85,34 @@ The latest packaged Claude-compatible skill bundle is available from the officia
 
 Current release: **v1.3.0 - Interactive Demo Site Upgrade**
 
+## Claude Code Plugin Support
+
+This repository now includes a Claude Code plugin manifest, making the Governance Systems Skills Library plugin-ready for Claude Code.
+
+Plugin metadata:
+
+- [.claude-plugin/plugin.json](.claude-plugin/plugin.json)
+
+Plugin documentation:
+
+- [Claude Code Plugin Installation Guide](docs/claude-code-plugin-installation.md)
+
+The current plugin layer focuses on making the existing GRC skills library discoverable and installable as a Claude Code plugin-ready toolkit. The repository does not currently include custom Claude Code commands, agents, hooks, MCP servers, or monitors.
+
+Current plugin-supported skill areas include:
+
+- Change governance review
+- CAB readiness
+- RCA governance analysis
+- Audit evidence review
+- Risk register building
+- Executive GRC reporting
+- Policy exception review
+- Third-party risk review
+- Control evidence quality review
+- Governance metrics summary
+- AI governance intake review
+
 ## Getting Started
 
 Use these guides to download, install, test, and apply the skills:

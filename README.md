@@ -307,6 +307,31 @@ These skills are designed to help practitioners produce clearer and more consist
 
 They do not replace professional judgment, legal advice, audit advice, regulatory interpretation, or management approval.
 
+## Evaluation and Testing Framework
+
+This repository includes a governance skills evaluation framework to support repeatable testing, scoring, and quality review of skill outputs.
+
+Evaluation resources:
+
+- [Evaluation Framework](tests/README.md)
+- [Governance Skills Test Plan](tests/governance-skills-test-plan.md)
+- [Evaluation Scorecard](tests/evaluation-scorecard.md)
+- [Expected Output Rubric](tests/expected-output-rubric.md)
+- [Sample Grader Prompts](tests/sample-grader-prompts.md)
+- [Evaluation Methodology](docs/evaluation-methodology.md)
+- [Evaluation Results Summary](docs/evaluation-results-summary.md)
+- [Evaluation Run Log Template](templates/evaluation-run-log-template.md)
+
+Included test cases:
+
+- [Change Governance Test Case](tests/test-case-change-governance.md)
+- [Audit Evidence Test Case](tests/test-case-audit-evidence.md)
+- [Third-Party Risk Test Case](tests/test-case-third-party-risk.md)
+- [AI Governance Test Case](tests/test-case-ai-governance.md)
+- [Executive Summary Test Case](tests/test-case-executive-summary.md)
+
+The evaluation framework is designed to test whether skill outputs identify governance gaps, produce appropriate decisions, document evidence requirements, highlight risk and ownership issues, and generate leadership-ready or audit-ready outputs.
+
 ## Current Status
 
 Current project phase: **Complete tested outputs release**

@@ -1,0 +1,32 @@
+name: Validate Plugin Readiness
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".claude-plugin/**"
+      - "commands/**"
+      - "agents/**"
+      - "docs/claude-code-plugin-installation.md"
+      - "docs/claude-code-command-guide.md"
+      - "docs/claude-code-agent-guide.md"
+      - "docs/plugin-component-map.md"
+      - "docs/plugin-testing-guide.md"
+      - "scripts/validate-plugin.py"
+      - ".github/workflows/validate-plugin.yml"
+
+jobs:
+  validate-plugin:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate Claude Code plugin readiness
+        run: python scripts/validate-plugin.py

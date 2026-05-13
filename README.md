@@ -1,5 +1,12 @@
 # Governance Systems Skills Library
 
+![Release](https://img.shields.io/github/v/release/neviarrawlinson/governance-systems-skills-library)
+![License](https://img.shields.io/github/license/neviarrawlinson/governance-systems-skills-library)
+![Skills](https://img.shields.io/badge/skills-11-teal)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin--ready-blue)
+![Validation](https://img.shields.io/badge/validation-passing-brightgreen)
+![GRC](https://img.shields.io/badge/GRC-Governance%20Systems%20Engineering-0f766e)
+
 Practical Claude-compatible skill packs for Governance Systems Engineering, change governance, RCA analysis, audit evidence, risk documentation, vendor risk, AI governance intake, and executive GRC reporting.
 
 ## Interactive Demo Site

@@ -11,35 +11,43 @@ Practical Claude-compatible skill packs for Governance Systems Engineering, chan
 
 ## Table of Contents
 
-- Live Demo
-- Project Preview
-- What This Project Does
-- Download Skill Packages
-- Getting Started
-- Claude Code Plugin Support
-- Evaluation and Testing Framework
-- Framework Mapping
-- Skill Packs
-- Tested Skill Output
-- Demo and Use Case Resources
-- Public Launch and Portfolio Resources
-- Methodology
-- Repository Structure
-- Roadmap
+- [Live Demo](#live-demo)
+- [Project Preview](#project-preview)
+- [Why This Project Exists](#why-this-project-exists)
+- [What Makes This Different](#what-makes-this-different)
+- [What Are Claude Skills?](#what-are-claude-skills)
+- [Who This Is For](#who-this-is-for)
+- [Download Skill Packages](#download-skill-packages)
+- [Getting Started](#getting-started)
+- [Installation Options](#installation-options)
+- [Claude Code Plugin Support](#claude-code-plugin-support)
+- [Claude Code Plugin Components](#claude-code-plugin-components)
+- [Evaluation and Testing Framework](#evaluation-and-testing-framework)
+- [Framework Mapping](#framework-mapping)
+- [Project Highlights](#project-highlights)
+- [Skill Packs](#skill-packs)
+- [Potential Use Cases](#potential-use-cases)
+- [Tested Skill Output](#tested-skill-output)
+- [Methodology](#methodology)
+- [Demo and Use Case Resources](#demo-and-use-case-resources)
+- [Public Launch and Portfolio Resources](#public-launch-and-portfolio-resources)
+- [Repository Structure](#repository-structure)
+- [How to Use This Library](#how-to-use-this-library)
+- [Validate Skills](#validate-skills)
+- [Validate Plugin Readiness](#validate-plugin-readiness)
+- [Package Skills](#package-skills)
+- [GitHub Actions](#github-actions)
+- [Intended Use](#intended-use)
+- [Disclaimer](#disclaimer)
+- [Current Status](#current-status)
+- [Roadmap](#roadmap)
+- [License](#license)
 
-## Interactive Demo Site
+## Live Demo
 
-The GitHub Pages site now includes an interactive project overview with searchable skill cards, category filters, direct links to skill folders, tested output examples, framework mapping resources, demo pathways, and the latest release download.
-
-View the live site here:
+View the project landing page here:
 
 https://neviarrawlinson.github.io/governance-systems-skills-library/
-
-Supporting site documentation:
-
-- [Interactive Site Guide](docs/interactive-site-guide.md)
-- [Site Content Map](docs/site-content-map.md)
-- [Site Upgrade Checklist](docs/site-upgrade-checklist.md)
 
 ## Project Preview
 
@@ -102,6 +110,42 @@ This is not a generic framework reference library. This project is workflow-cent
 - Reviewing AI use cases before approval
 - Producing executive-ready GRC summaries
 
+The purpose is to show how governance can be embedded into operational workflows instead of remaining isolated in policy documents.
+
+## What Are Claude Skills?
+
+Claude Skills are reusable instruction packages that help Claude perform a specialized workflow more consistently.
+
+In this project, each skill is designed around a practical GRC workflow such as change review, CAB readiness, RCA analysis, audit evidence review, vendor risk review, policy exception review, AI governance intake, or executive reporting.
+
+Each skill includes a `SKILL.md` file and may also include examples, references, tested outputs, and supporting documentation.
+
+A skill can help standardize:
+
+- What information should be reviewed
+- What risks should be identified
+- What evidence should be requested
+- What decisions should be recommended
+- What output format should be produced
+- What governance gaps should be escalated
+
+## Who This Is For
+
+This project is designed for:
+
+- GRC analysts and managers
+- IT governance teams
+- Change management owners
+- CAB coordinators
+- Audit readiness teams
+- ITGC control owners
+- Security governance teams
+- Vendor risk teams
+- AI governance reviewers
+- Compliance automation builders
+- GRC Engineering practitioners
+- Hiring managers evaluating practical GRC engineering ability
+
 ## Download Skill Packages
 
 The latest packaged Claude-compatible skill bundle is available from the official GitHub release:
@@ -110,9 +154,33 @@ The latest packaged Claude-compatible skill bundle is available from the officia
 
 Current release: **v1.4.0 - Plugin Validation and Evaluation Framework**
 
+## Getting Started
+
+Use these guides to download, install, test, and apply the skills:
+
+- [Quickstart Guide](docs/quickstart.md)
+- [Installation and Usage Guide](docs/installation-and-usage-guide.md)
+- [User Guide](docs/user-guide.md)
+- [Skill Testing Prompt Library](docs/skill-testing-prompt-library.md)
+- [Troubleshooting Guide](docs/troubleshooting-guide.md)
+- [Skill Installation Checklist](docs/skill-installation-checklist.md)
+
+For testing and documentation, use the included:
+
+- [Skill Test Log Template](templates/skill-test-log-template.md)
+
+## Installation Options
+
+| Option | Best For | Description |
+|---|---|---|
+| Download release package | Claude skill users | Download the latest packaged skill bundle from the release page. |
+| Use the repo directly | GRC practitioners and reviewers | Browse the skills, tested outputs, examples, and framework mappings directly in GitHub. |
+| Claude Code plugin-ready structure | Developers and technical teams | Use the plugin manifest, commands, agents, and validation workflow as a Claude Code-ready toolkit. |
+| GitHub Pages site | Recruiters, hiring managers, and portfolio reviewers | Review the live site for a visual overview of the project, skills, demos, and methodology. |
+
 ## Claude Code Plugin Support
 
-This repository now includes a Claude Code plugin manifest, making the Governance Systems Skills Library plugin-ready for Claude Code.
+This repository includes a Claude Code plugin manifest, making the Governance Systems Skills Library plugin-ready for Claude Code.
 
 Plugin metadata:
 
@@ -122,7 +190,7 @@ Plugin documentation:
 
 - [Claude Code Plugin Installation Guide](docs/claude-code-plugin-installation.md)
 
-The current plugin layer focuses on making the existing GRC skills library discoverable and installable as a Claude Code plugin-ready toolkit. The repository does not currently include custom Claude Code commands, agents, hooks, MCP servers, or monitors.
+The current plugin layer focuses on making the existing GRC skills library discoverable and installable as a Claude Code plugin-ready toolkit.
 
 Current plugin-supported skill areas include:
 
@@ -168,20 +236,37 @@ Included agent profiles:
 
 These components extend the project from a skill library into a more complete Claude Code plugin-ready governance toolkit.
 
-## Getting Started
+## Evaluation and Testing Framework
 
-Use these guides to download, install, test, and apply the skills:
+This repository includes a governance skills evaluation framework to support repeatable testing, scoring, and quality review of skill outputs.
 
-- [Quickstart Guide](docs/quickstart.md)
-- [Installation and Usage Guide](docs/installation-and-usage-guide.md)
-- [User Guide](docs/user-guide.md)
-- [Skill Testing Prompt Library](docs/skill-testing-prompt-library.md)
-- [Troubleshooting Guide](docs/troubleshooting-guide.md)
-- [Skill Installation Checklist](docs/skill-installation-checklist.md)
+Evaluation resources:
 
-For testing and documentation, use the included:
+- [Evaluation Framework](tests/README.md)
+- [Governance Skills Test Plan](tests/governance-skills-test-plan.md)
+- [Evaluation Scorecard](tests/evaluation-scorecard.md)
+- [Expected Output Rubric](tests/expected-output-rubric.md)
+- [Sample Grader Prompts](tests/sample-grader-prompts.md)
+- [Evaluation Methodology](docs/evaluation-methodology.md)
+- [Evaluation Results Summary](docs/evaluation-results-summary.md)
+- [Evaluation Run Log Template](templates/evaluation-run-log-template.md)
 
-- [Skill Test Log Template](templates/skill-test-log-template.md)
+Included test cases:
+
+- [Change Governance Test Case](tests/test-case-change-governance.md)
+- [Audit Evidence Test Case](tests/test-case-audit-evidence.md)
+- [Third-Party Risk Test Case](tests/test-case-third-party-risk.md)
+- [AI Governance Test Case](tests/test-case-ai-governance.md)
+- [Executive Summary Test Case](tests/test-case-executive-summary.md)
+
+The evaluation framework is designed to test whether skill outputs:
+
+- Identify governance gaps
+- Produce appropriate recommendations
+- Document evidence requirements
+- Highlight risk and ownership issues
+- Generate leadership-ready or audit-ready outputs
+- Align with the expected workflow outcome
 
 ## Framework Mapping
 
@@ -204,8 +289,11 @@ These mappings are intended to show practical alignment, not to replace formal a
 
 - **11 Claude-compatible GRC skills** organized as reusable skill folders
 - **11 tested output examples** using realistic governance scenarios
+- **Claude Code plugin-ready structure** with manifest, commands, and agents
 - **Automated validation** through GitHub Actions
 - **Automated packaging** for downloadable skill bundles
+- **Plugin readiness validation** for Claude Code plugin components
+- **Evaluation framework** for testing skill output quality
 - **Live GitHub Pages site** for project presentation
 - **Framework mapping** for common governance and compliance references
 - **Governance quality controls** for release readiness and review
@@ -225,6 +313,22 @@ These mappings are intended to show practical alignment, not to replace formal a
 | `control-evidence-quality-check` | Audit Readiness | Evaluates audit evidence for completeness, accuracy, traceability, date coverage, reviewer signoff, control relevance, and submission readiness. |
 | `governance-metrics-summary` | Governance Reporting | Turns operational governance data into leadership-ready metrics, trends, risks, exceptions, and action-oriented summaries. |
 | `ai-governance-intake-review` | AI Governance | Reviews proposed AI tools, models, automations, copilots, data uses, and AI-assisted workflows for governance, risk, privacy, security, compliance, ownership, transparency, and approval readiness. |
+
+## Potential Use Cases
+
+| Scenario | Relevant Skill |
+|---|---|
+| Reviewing a production change before CAB | `change-governance-review` |
+| Determining whether a change is ready for CAB | `cab-readiness-check` |
+| Reviewing an incomplete RCA | `rca-governance-analysis` |
+| Preparing an audit evidence response | `audit-evidence-request` |
+| Converting a finding into a risk register entry | `risk-register-builder` |
+| Summarizing governance status for leadership | `executive-grc-summary` |
+| Reviewing a request to bypass a policy requirement | `policy-exception-review` |
+| Assessing a vendor SaaS intake request | `third-party-risk-review` |
+| Checking whether control evidence is audit-ready | `control-evidence-quality-check` |
+| Turning governance metrics into leadership reporting | `governance-metrics-summary` |
+| Reviewing an AI tool or AI-assisted workflow intake | `ai-governance-intake-review` |
 
 ## Tested Skill Output
 
@@ -269,111 +373,23 @@ Read more:
 - [Skill Output Index](docs/skill-output-index.md)
 - [Portfolio Positioning Notes](docs/portfolio-positioning-notes.md)
 
-## Repository Structure
+## Demo and Use Case Resources
 
-```text
-docs/                    Project documentation and guides
-skills/                  Claude-compatible skill folders
-templates/               Reusable governance templates
-examples/                Sample inputs, outputs, release notes, and workflow examples
-framework-mapping/       Governance workflow mappings to common frameworks
-governance-quality/      Skill quality controls and release checklists
-scripts/                 Validation scripts
-.github/workflows/       GitHub Actions workflows
-site/                    GitHub Pages source copy
-dist/                    Packaged skill zip files
-assets/screenshots/      Optional project screenshots for README and portfolio use
-```
+This project includes demo resources to show how the skills can be applied across practical governance scenarios.
 
-## How to Use This Library
+Demo and use case resources:
 
-You can use this repository in three ways:
+- [Demo Walkthrough](docs/demo-walkthrough.md)
+- [Use Case Library](docs/use-case-library.md)
+- [Recruiter Demo Guide](docs/recruiter-demo-guide.md)
+- [Hiring Manager Summary](docs/hiring-manager-summary.md)
+- [End-to-End Change Governance Demo](examples/end-to-end-change-governance-demo.md)
+- [End-to-End Audit Evidence Demo](examples/end-to-end-audit-evidence-demo.md)
+- [End-to-End AI Governance Demo](examples/end-to-end-ai-governance-demo.md)
+- [End-to-End Third-Party Risk Demo](examples/end-to-end-third-party-risk-demo.md)
+- [Demo Evaluation Scorecard](templates/demo-evaluation-scorecard.md)
 
-1. **As a Claude Skills library**  
-   Download the packaged skill bundle from the latest release and use the relevant skill files in Claude.
-
-2. **As a GRC workflow reference library**  
-   Review the skill instructions, examples, and templates to understand how governance workflows can be structured.
-
-3. **As a Governance Systems Engineering portfolio project**  
-   Use the repository structure, tested outputs, validation workflow, and release packaging model to demonstrate applied GRC engineering capability.
-
-## Validate Skills
-
-Run:
-
-```bash
-python scripts/validate-skills.py
-```
-
-The validation script checks whether each skill folder includes the expected Claude-compatible structure.
-
-## Package Skills
-
-Run:
-
-```bash
-bash package-skills.sh
-```
-
-Packages are generated in the `dist/` folder.
-
-## GitHub Actions
-
-This repository includes GitHub Actions workflows for:
-
-- Validating skill structure
-- Packaging skill zip files
-- Supporting repeatable release readiness
-
-## Intended Use
-
-These skills are designed to help practitioners produce clearer and more consistent governance outputs.
-
-They do not replace professional judgment, legal advice, audit advice, regulatory interpretation, or management approval.
-
-## Evaluation and Testing Framework
-
-This repository includes a governance skills evaluation framework to support repeatable testing, scoring, and quality review of skill outputs.
-
-Evaluation resources:
-
-- [Evaluation Framework](tests/README.md)
-- [Governance Skills Test Plan](tests/governance-skills-test-plan.md)
-- [Evaluation Scorecard](tests/evaluation-scorecard.md)
-- [Expected Output Rubric](tests/expected-output-rubric.md)
-- [Sample Grader Prompts](tests/sample-grader-prompts.md)
-- [Evaluation Methodology](docs/evaluation-methodology.md)
-- [Evaluation Results Summary](docs/evaluation-results-summary.md)
-- [Evaluation Run Log Template](templates/evaluation-run-log-template.md)
-
-Included test cases:
-
-- [Change Governance Test Case](tests/test-case-change-governance.md)
-- [Audit Evidence Test Case](tests/test-case-audit-evidence.md)
-- [Third-Party Risk Test Case](tests/test-case-third-party-risk.md)
-- [AI Governance Test Case](tests/test-case-ai-governance.md)
-- [Executive Summary Test Case](tests/test-case-executive-summary.md)
-
-The evaluation framework is designed to test whether skill outputs identify governance gaps, produce appropriate decisions, document evidence requirements, highlight risk and ownership issues, and generate leadership-ready or audit-ready outputs.
-
-## Current Status
-
-Current project phase: **Complete tested outputs release**
-
-Completed:
-
-- Core skill library structure
-- GitHub Pages landing page
-- Initial GRC workflow skills
-- Advanced governance skills
-- Skill catalog
-- Framework mapping folder
-- Governance quality controls
-- Automated validation workflow
-- Automated packaging workflow
-- Official GitHub releases
-- Tested skill output examples for all 11 skills
+These resources are designed to help demonstrate how the library supports real GRC workflows from intake through review, evidence, risk documentation, leadership reporting, and audit-ready output.
 
 ## Public Launch and Portfolio Resources
 
@@ -394,36 +410,133 @@ Launch and portfolio resources:
 
 These resources are designed to help explain the project as a Governance Systems Engineering portfolio asset for GRC, audit readiness, risk management, AI governance, and operational governance roles.
 
-## Demo and Use Case Resources
+## Repository Structure
 
-This project includes demo resources to show how the skills can be applied across practical governance scenarios.
+```text
+.claude-plugin/          Claude Code plugin manifest
+.github/workflows/       GitHub Actions workflows
+agents/                  Claude Code-ready agent profiles
+assets/screenshots/      Project screenshots for README and portfolio use
+commands/                Claude Code-ready command workflows
+dist/                    Packaged skill zip files
+docs/                    Project documentation and guides
+examples/                Sample inputs, outputs, release notes, and workflow examples
+framework-mapping/       Governance workflow mappings to common frameworks
+governance-quality/      Skill quality controls and release checklists
+scripts/                 Validation scripts
+site/                    GitHub Pages source copy
+skills/                  Claude-compatible skill folders
+templates/               Reusable governance templates
+tests/                   Evaluation framework, test cases, scorecards, and rubrics
+```
 
-Demo and use case resources:
+## How to Use This Library
 
-- [Demo Walkthrough](docs/demo-walkthrough.md)
-- [Use Case Library](docs/use-case-library.md)
-- [Recruiter Demo Guide](docs/recruiter-demo-guide.md)
-- [Hiring Manager Summary](docs/hiring-manager-summary.md)
-- [End-to-End Change Governance Demo](examples/end-to-end-change-governance-demo.md)
-- [End-to-End Audit Evidence Demo](examples/end-to-end-audit-evidence-demo.md)
-- [End-to-End AI Governance Demo](examples/end-to-end-ai-governance-demo.md)
-- [End-to-End Third-Party Risk Demo](examples/end-to-end-third-party-risk-demo.md)
-- [Demo Evaluation Scorecard](templates/demo-evaluation-scorecard.md)
+You can use this repository in four ways:
 
-These resources are designed to help demonstrate how the library supports real GRC workflows from intake through review, evidence, risk documentation, leadership reporting, and audit-ready output.
+1. **As a Claude Skills library**  
+   Download the packaged skill bundle from the latest release and use the relevant skill files in Claude.
+
+2. **As a Claude Code plugin-ready toolkit**  
+   Use the plugin manifest, commands, agents, and skills structure as the foundation for Claude Code workflows.
+
+3. **As a GRC workflow reference library**  
+   Review the skill instructions, examples, templates, test cases, and framework mappings to understand how governance workflows can be structured.
+
+4. **As a Governance Systems Engineering portfolio project**  
+   Use the repository structure, tested outputs, validation workflows, release packaging, and evaluation framework to demonstrate applied GRC engineering capability.
+
+## Validate Skills
+
+Run:
+
+```bash
+python scripts/validate-skills.py
+```
+
+The validation script checks whether each skill folder includes the expected Claude-compatible structure.
+
+## Validate Plugin Readiness
+
+Run:
+
+```bash
+python scripts/validate-plugin.py
+```
+
+The plugin validation script checks whether the Claude Code plugin-ready components are present, including the plugin manifest, skills, commands, agents, and supporting documentation.
+
+## Package Skills
+
+Run:
+
+```bash
+bash package-skills.sh
+```
+
+Packages are generated in the `dist/` folder.
+
+## GitHub Actions
+
+This repository includes GitHub Actions workflows for:
+
+- Validating skill structure
+- Validating plugin readiness
+- Packaging skill zip files
+- Supporting repeatable release readiness
+
+## Intended Use
+
+These skills are designed to help practitioners produce clearer and more consistent governance outputs.
+
+They do not replace professional judgment, legal advice, audit advice, regulatory interpretation, or management approval.
+
+## Disclaimer
+
+This project is for educational, portfolio, and workflow demonstration purposes.
+
+It does not replace legal advice, audit advice, regulatory interpretation, organizational approval processes, or professional judgment. Users are responsible for validating outputs against their own policies, controls, risk appetite, compliance obligations, and governance requirements.
+
+## Current Status
+
+Current project phase: **Plugin Validation and Evaluation Framework**
+
+Completed:
+
+- Core skill library structure
+- GitHub Pages landing page
+- Interactive demo site
+- Initial GRC workflow skills
+- Advanced governance skills
+- Claude Code plugin manifest
+- Claude Code-ready commands
+- Claude Code-ready agents
+- Skill catalog
+- Framework mapping folder
+- Governance quality controls
+- Evaluation and testing framework
+- Automated skill validation workflow
+- Automated plugin readiness validation workflow
+- Automated packaging workflow
+- Official GitHub releases
+- Tested skill output examples for all 11 skills
+- Public launch and portfolio documentation
+- Demo and use case resources
 
 ## Roadmap
 
 Planned future improvements:
 
-- Add screenshots to the README
+- Add scenario pack expansion
+- Add benchmark-style evaluation results
+- Add baseline comparison documentation
 - Add more Jira and Confluence workflow examples
 - Add release governance examples
-- Expand framework mappings
-- Add additional AI governance and vendor risk scenarios
-- Improve live site navigation
+- Expand team adoption documentation
+- Add community feedback log after public launch
 - Add downloadable individual skill buttons to the live site
-- Publish v1.0.0 after screenshots, site polish, and expanded workflow examples are complete
+- Improve plugin marketplace readiness documentation
+- Continue expanding Governance Systems Engineering use cases
 
 ## License
 

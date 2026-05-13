@@ -9,6 +9,24 @@
 
 Practical Claude-compatible skill packs for Governance Systems Engineering, change governance, RCA analysis, audit evidence, risk documentation, vendor risk, AI governance intake, and executive GRC reporting.
 
+## Table of Contents
+
+- Live Demo
+- Project Preview
+- What This Project Does
+- Download Skill Packages
+- Getting Started
+- Claude Code Plugin Support
+- Evaluation and Testing Framework
+- Framework Mapping
+- Skill Packs
+- Tested Skill Output
+- Demo and Use Case Resources
+- Public Launch and Portfolio Resources
+- Methodology
+- Repository Structure
+- Roadmap
+
 ## Interactive Demo Site
 
 The GitHub Pages site now includes an interactive project overview with searchable skill cards, category filters, direct links to skill folders, tested output examples, framework mapping resources, demo pathways, and the latest release download.
